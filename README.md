@@ -5,7 +5,7 @@
 
 El archivo **.gitignore** es un archivo de texto que le indica a git que archivos o carpetas debe ignorar y no inluir en el repositorio.
 
-## ¿Por qué es conveniento Incluirlo?
+## ¿Por qué es conveniente Incluirlo?
 
 1. Evita subir archivos innecesarios
 	- Archivos temporales, logs, cachés y binarios que no son necesarios en el repositorio.
@@ -55,5 +55,14 @@ Para ignorar un archivo especifico llamado ignorado.txt en tu repositorio, segui
 	- Utilizando git status verificaremos que efectivamente este siendo ignorado.
 3. ### Confirmar los cambios
 	- con git commit -m "mensaje representativo" (por ej: "se agrega a.ignore el archivo ignorado.txt") y luego el comando git push origin main para subir los cambios a GitHub
+
+
+### Ejercicio 3)g
+
+**Por que el resultado de los aprtados 2 y 3 es el mismo?**
+como **puntero** apunta a **variable**, su contenido es la misma direccion de variable. Por eso se muestra la misma direccion.
+
+**Que obtiene en el punto 4?**
+en el punto 4, imprimimos **&puntero**, que es la direccion de memoria del puntero, no la de la variable. El puntero tambien es una varaible almacenada en un lugar distinto en memoria y por eso obtenemos distintos resultados
 
 
